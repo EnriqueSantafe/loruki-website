@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=p0bGHP-PXD4
+
+En 'fonts.google.com' buscamos Lato y seleccionamos 'Light 300' 
+
+Para subir la página hay que registrarse en 'https://app.netlify.com/' y pulsar en el botón 'New site from Git'. Luego hay que ir a la página 'http://docs.netlify.com/forms/setup/' y copiar 'name="contact" method="POST" data-netlify="true"' y pegarlo en el html. Luego copiar '<input type="hidden" name="form-name" value="contact">' y pegarlo en el html. Luego vamos al menu lateral: Forms - Spam filters y copio 'netlify-honeypot="bot-field"' y pegarlo en el html. Luego copio '<p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>' y pegarlo en el html.
+Ahora escribo en la consola: 'git init' y luego escribo 'git add .'
